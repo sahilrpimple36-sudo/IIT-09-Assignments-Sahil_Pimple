@@ -1,0 +1,34 @@
+1. Why should root SSH login be disabled?
+Ans. 1- The root SSH login should be disabled because it eliminates the prediction of cyber attacks like Brute-Force attacks.
+     2- Default username is available on every linux machine attackers only need to guess the password of the user.
+     3- If the root SSH login is enabled your account is publicly exposed and attackers can gain full access to the administrator hence 
+        it should be disabled for enchanced security.
+
+2. What is a service in Linux?
+Ans. 1- It is a program or process that runs in the background without any direct user interaction.
+     2- Example: SSH server runs in background connecting vm to base machine.
+
+3. Difference between start and enable?
+Ans. 1- The start command is used to activate a service in backgruond.
+     2- The enable command configures the service to start automatically whenever the system boots up.
+
+4. Explain r , w , and x.
+Ans. 1- The r function defines the read permissions to the user , group or others. Given to a directory or a file by default.
+     2- The w function defines the write permissions to the user , group or others. Given to a directory or a file by default.
+     3- The x function defines the execute permissions to the user , group or others. Given to a directory or a file by default.
+All these funtions can be changed later using commands.
+
+5. What happens if permissions are set to 777 ?
+Ans. If the permissions are set to 777 the rwx permissions are fully given access to the owners groups and others also. 
+     If the permissions are fully granted anyone can read modify or execute the specified file or directory.
+
+6. How does permission help in securing data?
+Ans. The permission helps in securing data as it defines who can access the file and how they can access the file.
+     It helps in industrial level as all permissions are granted to the main head and the modification and execution are only granted
+     to the developers and others who dont have permission can only read preventing data loss.
+
+7. What does x field ?
+Ans. X field means execute that is it is given permission to user,owner and groups to execute files directory in system.
+
+8. Why are passwords not stored in /etc/passwd?
+Ans. Passwords are not stored in etc/passwd/ to protect unauthorized access.
